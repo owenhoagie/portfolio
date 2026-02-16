@@ -18,9 +18,9 @@ export default function HomePage() {
 
       <SkillsList />
 
-      <section className="border-t border-neutral-200">
+      <section className="border-t border-neutral-200 dark:border-neutral-800">
         <div className="mx-auto max-w-4xl px-6 py-16">
-          <h2 className="mb-6 text-2xl font-bold text-neutral-900">
+          <h2 className="mb-6 text-2xl font-bold text-neutral-900 dark:text-neutral-100">
             Projects
           </h2>
           <ProjectGrid projects={projects} />
@@ -28,9 +28,9 @@ export default function HomePage() {
       </section>
 
       {recentPosts.length > 0 && (
-        <section className="border-t border-neutral-200 bg-white">
+        <section className="border-t border-neutral-200 bg-white dark:border-neutral-800 dark:bg-neutral-950">
           <div className="mx-auto max-w-4xl px-6 py-16">
-            <h2 className="mb-6 text-2xl font-bold text-neutral-900">
+            <h2 className="mb-6 text-2xl font-bold text-neutral-900 dark:text-neutral-100">
               Recent Posts
             </h2>
             <BlogList posts={recentPosts} />

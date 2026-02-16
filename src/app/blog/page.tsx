@@ -10,8 +10,10 @@ export default function BlogPage() {
 
   return (
     <div className="mx-auto max-w-4xl px-6 py-16">
-      <h1 className="mb-2 text-3xl font-bold text-neutral-900">Blog</h1>
-      <p className="mb-8 text-neutral-500">
+      <h1 className="mb-2 text-3xl font-bold text-neutral-900 dark:text-neutral-100">
+        Blog
+      </h1>
+      <p className="mb-8 text-neutral-500 dark:text-neutral-400">
         Writing about things I learn and build.
       </p>
       {posts.length > 0 ? (

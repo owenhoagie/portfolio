@@ -1,18 +1,18 @@
 export default function ContactSection() {
   return (
-    <section className="border-t border-neutral-200">
+    <section className="border-t border-neutral-200 dark:border-neutral-800">
       <div className="mx-auto max-w-4xl px-6 py-16">
-        <h2 className="mb-4 text-2xl font-bold text-neutral-900">
+        <h2 className="mb-4 text-2xl font-bold text-neutral-900 dark:text-neutral-100">
           Get in Touch
         </h2>
-        <p className="mb-6 text-neutral-600">
+        <p className="mb-6 text-neutral-600 dark:text-neutral-400">
           I&apos;m open to opportunities and always happy to chat. Reach out via
           email or connect on the platforms below.
         </p>
         <div className="flex gap-4 text-sm">
           <a
             href="mailto:owen@example.com"
-            className="rounded-md bg-neutral-900 px-4 py-2 font-medium text-white hover:bg-neutral-800"
+            className="rounded-md bg-neutral-900 px-4 py-2 font-medium text-white hover:bg-neutral-800 dark:bg-neutral-100 dark:text-neutral-900 dark:hover:bg-neutral-200"
           >
             Email Me
           </a>
@@ -20,7 +20,7 @@ export default function ContactSection() {
             href="https://github.com/owenhoagie"
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-md border border-neutral-300 px-4 py-2 font-medium text-neutral-700 hover:border-neutral-400"
+            className="rounded-md border border-neutral-300 px-4 py-2 font-medium text-neutral-700 hover:border-neutral-400 dark:border-neutral-700 dark:text-neutral-300 dark:hover:border-neutral-600"
           >
             GitHub
           </a>
@@ -28,7 +28,7 @@ export default function ContactSection() {
             href="https://linkedin.com/in/owenhoag"
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-md border border-neutral-300 px-4 py-2 font-medium text-neutral-700 hover:border-neutral-400"
+            className="rounded-md border border-neutral-300 px-4 py-2 font-medium text-neutral-700 hover:border-neutral-400 dark:border-neutral-700 dark:text-neutral-300 dark:hover:border-neutral-600"
           >
             LinkedIn
           </a>
