@@ -43,14 +43,15 @@ export default function About() {
         </div>
         <div className="space-y-4 leading-relaxed text-neutral-600 dark:text-neutral-400">
           <p>
-            I&apos;m a developer with a focus on building clean, reliable
-            software. I enjoy the full process — from understanding the problem
-            to shipping a solution that works well and is easy to maintain.
+            I&apos;m a software engineer based in Chicago with a strong interest
+            in product-focused development. My work spans frontend systems,
+            backend APIs, and data-driven features that help teams move faster.
           </p>
           <p>
-            I write about what I learn along the way. The blog here is a place
-            for technical deep-dives, project retrospectives, and the occasional
-            opinion on tools and practices.
+            I&apos;ve built internal tooling, customer-facing applications, and
+            end-to-end automations using JavaScript/TypeScript, React/Next.js,
+            Python, and cloud services. I care a lot about readability,
+            ownership, and creating software that lasts.
           </p>
         </div>
       </div>

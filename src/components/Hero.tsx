@@ -12,9 +12,9 @@ export default function Hero() {
           Owen Hoag
         </h1>
         <p className="mb-8 max-w-xl text-lg leading-relaxed text-neutral-600 dark:text-neutral-400">
-          A software developer who builds clean, purposeful products. I care
-          about writing good code, shipping useful things, and always learning
-          something new.
+          Software engineer focused on full-stack web products, practical AI
+          integrations, and polished user experiences. I enjoy turning complex
+          requirements into maintainable systems that ship.
         </p>
         <div className="flex gap-4">
           <Link

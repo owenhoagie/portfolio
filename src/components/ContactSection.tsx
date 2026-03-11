@@ -6,12 +6,12 @@ export default function ContactSection() {
           Get in Touch
         </h2>
         <p className="mb-6 text-neutral-600 dark:text-neutral-400">
-          I&apos;m open to opportunities and always happy to chat. Reach out via
-          email or connect on the platforms below.
+          I&apos;m open to software engineering opportunities and collaborations.
+          Reach out by email or connect with me below.
         </p>
         <div className="flex gap-4 text-sm">
           <a
-            href="mailto:owen@example.com"
+            href="mailto:owenhoag@vt.edu"
             className="rounded-md bg-neutral-900 px-4 py-2 font-medium text-white hover:bg-neutral-800 dark:bg-neutral-100 dark:text-neutral-900 dark:hover:bg-neutral-200"
           >
             Email Me

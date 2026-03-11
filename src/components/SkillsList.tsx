@@ -1,14 +1,19 @@
 const skills = [
+  "Python",
   "JavaScript",
   "TypeScript",
   "React",
   "Next.js",
   "Node.js",
+  "Express",
+  "PostgreSQL",
+  "MongoDB",
+  "AWS",
+  "Docker",
   "Tailwind CSS",
   "Git",
   "REST APIs",
-  "SQL",
-  "Python",
+  "CI/CD",
 ];
 
 export default function SkillsList() {
