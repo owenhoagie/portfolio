@@ -2,32 +2,35 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
-    slug: "sample-post",
-    title: "Sample Blog Post",
-    date: "2026-02-01",
+    slug: "building-with-intent",
+    title: "Building Software with Intent",
+    date: "2026-02-10",
     summary:
-      "Welcome to my portfolio blog! In this post, I share insights about my journey in software development.",
+      "A short introduction to how I approach shipping reliable products and learning from each release.",
     content: `
-# Sample Blog Post
+# Building Software with Intent
 
-Welcome to my portfolio blog! In this post, I will share insights about my journey in software development and the projects I have worked on.
+I enjoy working on products where clean implementation and real user value matter equally.
 
-## Introduction
+## What I optimize for
 
-As a passionate developer, I have always been fascinated by technology and its ability to solve real-world problems. This blog will serve as a platform for me to share my experiences, challenges, and learnings.
+- Clear problem framing before writing code
+- Fast iteration loops with measurable feedback
+- Readable systems that are easy for teams to maintain
 
-## My Journey
+## Why this blog exists
 
-I started my journey in software development by learning the basics of programming. Over the years, I have worked on various projects that have helped me grow both personally and professionally.
+I use this space to write project retrospectives, implementation notes, and lessons learned from building across the stack.
 
-### Key Projects
+## Topics I will cover
 
-- **Project A**: A brief description of Project A and the technologies used.
-- **Project B**: A brief description of Project B and the technologies used.
+- Full-stack architecture decisions
+- AI-assisted product features
+- Performance and developer-experience improvements
 
-## Conclusion
+## Thanks for reading
 
-Thank you for reading my first blog post! Stay tuned for more updates and insights into my projects and experiences in the tech world.
+More posts coming soon.
     `.trim(),
   },
 ];

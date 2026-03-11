@@ -3,47 +3,47 @@ import { Project } from "@/types";
 export const projects: Project[] = [
   {
     id: 1,
-    slug: "project-one",
-    title: "Project One",
+    slug: "ai-course-planner",
+    title: "AI Course Planner",
     description:
-      "A brief description of Project One, highlighting its features and technologies used.",
+      "A scheduling assistant that generates semester plans from degree requirements and personal preferences.",
     longDescription:
-      "Project One is a full-featured web application built with React and TypeScript. It demonstrates component-driven architecture, custom hooks for state management, and a responsive CSS layout. The project started as a way to explore advanced React patterns and grew into a useful tool that solves a real problem for its users. Key features include real-time data updates, keyboard-driven navigation, and comprehensive test coverage.",
-    technologies: ["React", "TypeScript", "CSS"],
-    link: "https://github.com/owenhoagie/project-one",
+      "Built a full-stack planner that combines curriculum constraints with user-selected priorities. The app uses server-side workflows for recommendation generation, persists draft plans, and provides a clean UI for comparison and iteration.",
+    technologies: ["Next.js", "TypeScript", "PostgreSQL", "OpenAI API"],
+    link: "https://github.com/owenhoagie",
   },
   {
     id: 2,
-    slug: "project-two",
-    title: "Project Two",
+    slug: "event-operations-dashboard",
+    title: "Event Operations Dashboard",
     description:
-      "A brief description of Project Two, showcasing its unique aspects and functionalities.",
+      "Operational dashboard for managing registrations, attendance, and post-event analytics.",
     longDescription:
-      "Project Two is a server-rendered application built with Next.js and styled using Tailwind CSS. It features server-side data fetching, incremental static regeneration, and a clean content management workflow. The backend API layer is built with Node.js and handles authentication, data validation, and integration with third-party services. This project highlights my ability to work across the full stack and deliver production-quality software.",
-    technologies: ["Next.js", "Tailwind CSS", "Node.js"],
-    link: "https://github.com/owenhoagie/project-two",
+      "Designed and implemented a dashboard for internal teams to track event operations in real time. Included role-aware views, import/export tooling, and trend reporting to improve planning and follow-up across multiple events.",
+    technologies: ["React", "Node.js", "Express", "MongoDB"],
+    link: "https://github.com/owenhoagie",
   },
   {
     id: 3,
-    slug: "project-three",
-    title: "Project Three",
+    slug: "portfolio-cms",
+    title: "Portfolio CMS",
     description:
-      "A brief description of Project Three, detailing its purpose and the problems it solves.",
+      "Content-managed portfolio platform with markdown publishing, project pages, and theming.",
     longDescription:
-      "Project Three is a real-time collaborative tool built with Vue.js and Firebase. It uses Firestore for persistent storage and Firebase Auth for user management. The application supports live document editing, presence indicators, and offline-first functionality. SCSS modules keep the styling organized and themeable. This project pushed me to think deeply about data synchronization and conflict resolution in distributed systems.",
-    technologies: ["Vue.js", "Firebase", "SCSS"],
-    link: "https://github.com/owenhoagie/project-three",
+      "Created a reusable portfolio starter built with modern React patterns and markdown-based content. Added route-driven project detail pages, dark mode support, and clean component abstractions to make customization fast.",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
+    link: "https://github.com/owenhoagie/portfolio",
   },
   {
     id: 4,
-    slug: "project-four",
-    title: "Project Four",
+    slug: "analytics-automation-pipeline",
+    title: "Analytics Automation Pipeline",
     description:
-      "A brief description of Project Four, explaining its features and the tech stack used.",
+      "Automated reporting pipeline that transforms raw product data into scheduled insights for stakeholders.",
     longDescription:
-      "Project Four is a RESTful API and admin dashboard built with Angular on the frontend and Express with MongoDB on the backend. It features role-based access control, paginated data tables, and a charting dashboard for analytics. The API follows OpenAPI specification and includes automated integration tests. This project showcases my experience with enterprise-style architecture and database design.",
-    technologies: ["Angular", "Express", "MongoDB"],
-    link: "https://github.com/owenhoagie/project-four",
+      "Built ETL jobs and reporting endpoints to reduce manual spreadsheet work. The pipeline validates incoming data, stores normalized records, and generates recurring summaries that teams use for product and growth decisions.",
+    technologies: ["Python", "SQL", "AWS", "Docker"],
+    link: "https://github.com/owenhoagie",
   },
 ];
 
