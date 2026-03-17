@@ -5,26 +5,26 @@
 @theme {
   --font-sans: "Avenir Next", "Segoe UI", "Helvetica Neue", sans-serif;
   --font-display: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
-  --color-ink: #15191f;
-  --color-accent: #bf5a36;
-  --color-accent-deep: #7f341b;
-  --color-panel: rgba(255, 255, 255, 0.78);
-  --color-panel-dark: rgba(22, 26, 34, 0.76);
+  --color-ink: #1d2730;
+  --color-accent: #9f4f2e;
+  --color-accent-deep: #6d331c;
+  --color-line: rgba(67, 52, 39, 0.18);
+  --color-line-dark: rgba(148, 163, 184, 0.18);
+  --color-surface: rgba(255, 252, 246, 0.92);
+  --color-surface-strong: rgba(245, 238, 228, 0.95);
+  --color-surface-dark: rgba(17, 23, 31, 0.9);
+  --color-surface-dark-strong: rgba(25, 34, 45, 0.96);
 }
 
 html {
   scroll-behavior: smooth;
   background:
-    radial-gradient(circle at top left, rgba(191, 90, 54, 0.15), transparent 32%),
-    radial-gradient(circle at top right, rgba(37, 99, 235, 0.12), transparent 28%),
-    linear-gradient(180deg, #fbf8f3 0%, #f2ede4 100%);
+    linear-gradient(180deg, rgba(255, 250, 241, 0.98) 0%, rgba(242, 234, 222, 0.96) 48%, rgba(232, 225, 214, 0.92) 100%);
 }
 
 html.dark {
   background:
-    radial-gradient(circle at top left, rgba(191, 90, 54, 0.16), transparent 30%),
-    radial-gradient(circle at top right, rgba(14, 116, 144, 0.15), transparent 26%),
-    linear-gradient(180deg, #0c1117 0%, #121821 100%);
+    linear-gradient(180deg, #0e1319 0%, #121922 52%, #18212b 100%);
 }
 
 body {
@@ -45,6 +45,24 @@ h4 {
 
 ::selection {
   background: rgba(191, 90, 54, 0.22);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.35) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(140, 118, 96, 0.08) 1px, transparent 1px);
+  background-size: 100% 100%, 32px 32px;
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.18), transparent 36%);
+}
+
+.dark body::before {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(148, 163, 184, 0.05) 1px, transparent 1px);
 }
 
 @keyframes fade-up {
@@ -71,15 +89,33 @@ h4 {
   animation-delay: 300ms;
 }
 
-.glass-panel {
-  background: var(--color-panel);
-  backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.45);
-  box-shadow: 0 20px 60px rgba(27, 31, 42, 0.08);
+.surface-panel {
+  background: linear-gradient(180deg, var(--color-surface) 0%, var(--color-surface-strong) 100%);
+  border: 1px solid var(--color-line);
+  box-shadow: 0 18px 40px rgba(80, 61, 45, 0.08);
 }
 
-.dark .glass-panel {
-  background: var(--color-panel-dark);
-  border-color: rgba(148, 163, 184, 0.16);
-  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.32);
+.dark .surface-panel {
+  background: linear-gradient(180deg, var(--color-surface-dark) 0%, var(--color-surface-dark-strong) 100%);
+  border-color: var(--color-line-dark);
+  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.24);
+}
+
+.section-label {
+  letter-spacing: 0.24em;
+}
+
+.eyebrow-rule {
+  position: relative;
+}
+
+.eyebrow-rule::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -0.85rem;
+  width: 3.5rem;
+  height: 1px;
+  background: currentColor;
+  opacity: 0.45;
 }

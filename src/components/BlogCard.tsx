@@ -5,7 +5,7 @@ export default function BlogCard({ post }: { post: BlogPost }) {
   return (
     <Link
       href={`/blog/${post.slug}`}
-      className="group glass-panel block rounded-[1.5rem] p-6 transition duration-300 hover:-translate-y-1"
+      className="surface-panel group block rounded-[1.5rem] p-6 transition duration-300 hover:-translate-y-1 hover:shadow-[0_18px_40px_rgba(80,61,45,0.1)] dark:hover:shadow-[0_18px_40px_rgba(0,0,0,0.24)]"
     >
       <div className="mb-3 flex items-center justify-between gap-4">
         <h3 className="text-2xl text-neutral-900 transition group-hover:text-sky-800 dark:text-neutral-100 dark:group-hover:text-sky-200">

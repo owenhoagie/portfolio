@@ -5,7 +5,7 @@ export default function ProjectCard({ project }: { project: Project }) {
   return (
     <Link
       href={`/projects/${project.slug}`}
-      className="group glass-panel block rounded-[1.75rem] p-6 transition duration-300 hover:-translate-y-1 hover:shadow-[0_24px_70px_rgba(27,31,42,0.12)] dark:hover:shadow-[0_24px_70px_rgba(0,0,0,0.34)]"
+      className="surface-panel group block rounded-[1.5rem] p-6 transition duration-300 hover:-translate-y-1 hover:shadow-[0_20px_44px_rgba(80,61,45,0.12)] dark:hover:shadow-[0_20px_44px_rgba(0,0,0,0.3)]"
     >
       <div className="mb-5 flex items-center justify-between gap-4">
         <span className="rounded-full bg-orange-100 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-orange-800 dark:bg-orange-500/10 dark:text-orange-200">
@@ -25,7 +25,7 @@ export default function ProjectCard({ project }: { project: Project }) {
         {project.technologies.map((tech) => (
           <span
             key={tech}
-            className="rounded-full border border-black/5 bg-white/70 px-3 py-1 text-xs font-medium text-neutral-600 dark:border-white/10 dark:bg-white/5 dark:text-neutral-300"
+            className="rounded-full border border-black/8 bg-white/65 px-3 py-1 text-xs font-medium text-neutral-600 dark:border-white/10 dark:bg-white/5 dark:text-neutral-300"
           >
             {tech}
           </span>

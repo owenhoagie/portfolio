@@ -22,23 +22,23 @@ export default function SkillsList() {
       <div className="mx-auto max-w-6xl px-6 py-20">
         <div className="mb-8 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div>
-            <p className="mb-3 text-xs font-semibold uppercase tracking-[0.24em] text-emerald-700 dark:text-emerald-300">
+            <p className="section-label eyebrow-rule mb-5 text-xs font-semibold uppercase text-emerald-700 dark:text-emerald-300">
               Toolkit
             </p>
             <h2 className="text-3xl text-neutral-900 dark:text-neutral-100 sm:text-4xl">
-              Comfortable across the stack, happiest where product and engineering meet.
+              Comfortable across the stack, especially where product and engineering overlap.
             </h2>
           </div>
           <p className="max-w-xl text-sm leading-7 text-neutral-600 dark:text-neutral-300">
-            These are the tools I reach for most often when building polished
-            interfaces, backend services, and dependable delivery pipelines.
+            These are the tools I reach for most often when building interfaces,
+            services, and the supporting systems around them.
           </p>
         </div>
         <div className="flex flex-wrap gap-3">
           {skills.map((skill) => (
             <span
               key={skill}
-              className="glass-panel rounded-full px-4 py-2 text-sm font-medium text-neutral-700 dark:text-neutral-200"
+              className="surface-panel rounded-full px-4 py-2 text-sm font-medium text-neutral-700 dark:text-neutral-200"
             >
               {skill}
             </span>

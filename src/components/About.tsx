@@ -4,11 +4,11 @@ export default function About() {
       <div className="mx-auto max-w-6xl px-6 py-20">
         <div className="grid gap-10 md:grid-cols-[0.95fr_1.05fr] md:items-start">
           <div>
-            <p className="mb-3 text-xs font-semibold uppercase tracking-[0.24em] text-orange-700 dark:text-orange-300">
+            <p className="section-label eyebrow-rule mb-5 text-xs font-semibold uppercase text-orange-700 dark:text-orange-300">
               About
             </p>
             <h2 className="text-3xl text-neutral-900 dark:text-neutral-100 sm:text-4xl">
-              I like projects with structure, taste, and a real reason to exist.
+              I like projects with a clear job to do and the discipline to do it well.
             </h2>
             <div className="mt-6 flex gap-3">
               <a
@@ -30,23 +30,25 @@ export default function About() {
             </div>
           </div>
 
-          <div className="glass-panel rounded-[2rem] p-7">
+          <div className="surface-panel rounded-[1.75rem] p-7">
             <div className="space-y-5 leading-8 text-neutral-700 dark:text-neutral-300">
               <p>
-                I&apos;m a developer who enjoys turning messy ideas into clear,
-                dependable products. The part I find most satisfying is closing
-                the gap between what people need and what the software actually
-                does.
+                I&apos;m a developer who enjoys turning loose ideas into
+                software with shape, logic, and staying power. The most
+                satisfying part of the work is narrowing the gap between what a
+                person is trying to get done and what the product actually
+                helps them do.
               </p>
               <p>
-                That usually means sweating both the big decisions and the small
-                ones: shaping workflows, keeping code readable, and making sure
-                the final experience feels deliberate instead of accidental.
+                That usually means paying attention at both levels: making the
+                right product decisions up front, then following through with
+                readable code, careful implementation, and interfaces that do
+                not rely on novelty to feel polished.
               </p>
               <p>
-                I also write to sharpen my thinking. The posts here are less
-                about hot takes and more about distilling patterns, tradeoffs,
-                and lessons I want to keep using.
+                I also write as a way of pressure-testing my thinking. The
+                notes here are mostly about patterns, tradeoffs, and lessons
+                that have proved useful enough to keep.
               </p>
             </div>
           </div>
