@@ -1,5 +1,4 @@
 import Hero from "@/components/Hero";
-import About from "@/components/About";
 import SkillsList from "@/components/SkillsList";
 import ProjectGrid from "@/components/ProjectGrid";
 import BlogList from "@/components/BlogList";
@@ -14,8 +13,6 @@ export default function HomePage() {
   return (
     <>
       <Hero />
-
-      <About />
 
       <SkillsList />
 

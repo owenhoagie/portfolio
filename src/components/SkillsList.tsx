@@ -22,7 +22,7 @@ export default function SkillsList() {
       <div className="mx-auto max-w-6xl px-6 py-20">
         <div className="mb-8 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div>
-            <p className="section-label eyebrow-rule mb-5 text-xs font-semibold uppercase text-emerald-700 dark:text-emerald-300">
+            <p className="section-label mb-5 text-xs font-semibold uppercase text-emerald-700 dark:text-emerald-300">
               Toolkit
             </p>
             <h2 className="text-3xl text-neutral-900 dark:text-neutral-100 sm:text-4xl">
