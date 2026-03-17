@@ -7,7 +7,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Owen Hoag — Portfolio",
   description:
-    "Software developer portfolio showcasing projects, skills, and blog posts.",
+    "Software developer portfolio with thoughtful product work, writing, and full-stack projects.",
 };
 
 export default function RootLayout({
@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="flex min-h-screen flex-col bg-neutral-50 text-neutral-900 dark:bg-neutral-950 dark:text-neutral-100">
+      <body className="flex min-h-screen flex-col text-neutral-900 dark:text-neutral-100">
         <ThemeProvider>
           <Header />
           <main className="flex-1">{children}</main>

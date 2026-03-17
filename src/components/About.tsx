@@ -1,58 +1,55 @@
 export default function About() {
   return (
-    <section className="border-t border-neutral-200 bg-white dark:border-neutral-800 dark:bg-neutral-950">
-      <div className="mx-auto max-w-4xl px-6 py-16">
-        <div className="mb-6 flex items-center gap-4">
-          <h2 className="text-2xl font-bold text-neutral-900 dark:text-neutral-100">
-            About
-          </h2>
-          <div className="flex gap-2">
-            <a
-              href="https://github.com/owenhoagie"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-neutral-400 hover:text-neutral-700 dark:hover:text-neutral-200"
-              aria-label="GitHub"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                className="h-5 w-5"
+    <section className="border-t border-stone-300/70 dark:border-white/10">
+      <div className="mx-auto max-w-6xl px-6 py-20">
+        <div className="grid gap-10 md:grid-cols-[0.95fr_1.05fr] md:items-start">
+          <div>
+            <p className="mb-3 text-xs font-semibold uppercase tracking-[0.24em] text-orange-700 dark:text-orange-300">
+              About
+            </p>
+            <h2 className="text-3xl text-neutral-900 dark:text-neutral-100 sm:text-4xl">
+              I like projects with structure, taste, and a real reason to exist.
+            </h2>
+            <div className="mt-6 flex gap-3">
+              <a
+                href="https://github.com/owenhoagie"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-full border border-stone-300/70 px-4 py-2 text-sm text-neutral-700 transition hover:border-stone-700 hover:text-neutral-950 dark:border-white/15 dark:text-neutral-200 dark:hover:border-white/35 dark:hover:text-white"
               >
-                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
-              </svg>
-            </a>
-            <a
-              href="https://linkedin.com/in/owenhoag"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-neutral-400 hover:text-neutral-700 dark:hover:text-neutral-200"
-              aria-label="LinkedIn"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                className="h-5 w-5"
+                GitHub
+              </a>
+              <a
+                href="https://linkedin.com/in/owenhoag"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-full border border-stone-300/70 px-4 py-2 text-sm text-neutral-700 transition hover:border-stone-700 hover:text-neutral-950 dark:border-white/15 dark:text-neutral-200 dark:hover:border-white/35 dark:hover:text-white"
               >
-                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
-              </svg>
-            </a>
+                LinkedIn
+              </a>
+            </div>
           </div>
-        </div>
-        <div className="space-y-4 leading-relaxed text-neutral-600 dark:text-neutral-400">
-          <p>
-            I&apos;m a software engineer based in Chicago with a strong interest
-            in product-focused development. My work spans frontend systems,
-            backend APIs, and data-driven features that help teams move faster.
-          </p>
-          <p>
-            I&apos;ve built internal tooling, customer-facing applications, and
-            end-to-end automations using JavaScript/TypeScript, React/Next.js,
-            Python, and cloud services. I care a lot about readability,
-            ownership, and creating software that lasts.
-          </p>
+
+          <div className="glass-panel rounded-[2rem] p-7">
+            <div className="space-y-5 leading-8 text-neutral-700 dark:text-neutral-300">
+              <p>
+                I&apos;m a developer who enjoys turning messy ideas into clear,
+                dependable products. The part I find most satisfying is closing
+                the gap between what people need and what the software actually
+                does.
+              </p>
+              <p>
+                That usually means sweating both the big decisions and the small
+                ones: shaping workflows, keeping code readable, and making sure
+                the final experience feels deliberate instead of accidental.
+              </p>
+              <p>
+                I also write to sharpen my thinking. The posts here are less
+                about hot takes and more about distilling patterns, tradeoffs,
+                and lessons I want to keep using.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
