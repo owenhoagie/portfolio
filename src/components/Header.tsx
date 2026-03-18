@@ -26,8 +26,7 @@ export default function Header() {
               Blog
             </Link>
             <Link
-              href="/resume.pdf"
-              target="_blank"
+              href="/resume"
               className="text-neutral-600 transition hover:text-[var(--color-accent-deep)] dark:text-neutral-300 dark:hover:text-orange-200"
             >
               Resume

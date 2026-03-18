@@ -20,13 +20,13 @@ export default function Hero() {
           <div className="animate-fade-up animation-delay-300 mt-10 flex flex-wrap gap-4">
             <Link
               href="/projects"
-              className="inline-flex items-center rounded-full border border-[var(--color-accent-deep)] bg-[var(--color-accent)] px-6 py-3 text-sm font-semibold text-white shadow-[0_12px_24px_rgba(109,51,28,0.18)] transition hover:-translate-y-0.5 hover:bg-[var(--color-accent-deep)] hover:shadow-[0_16px_28px_rgba(109,51,28,0.24)]"
+              className="button-base button-primary"
             >
               View Projects
             </Link>
             <Link
               href="/blog"
-              className="inline-flex items-center rounded-full border border-stone-400/80 bg-white/70 px-6 py-3 text-sm font-semibold text-neutral-800 transition hover:-translate-y-0.5 hover:border-stone-700 hover:bg-white hover:text-neutral-950 dark:border-white/15 dark:bg-white/5 dark:text-neutral-100 dark:hover:border-white/30 dark:hover:bg-white/8 dark:hover:text-white"
+              className="button-base button-secondary"
             >
               Read Blog
             </Link>
@@ -48,7 +48,7 @@ export default function Hero() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub"
-                className="flex h-12 w-12 items-center justify-center rounded-2xl border border-stone-400/80 bg-[rgba(255,250,244,0.96)] text-neutral-800 shadow-[0_10px_24px_rgba(80,61,45,0.14)] transition hover:-translate-y-0.5 hover:border-stone-700 hover:bg-white hover:text-neutral-950 dark:border-white/20 dark:bg-[rgba(24,32,42,0.92)] dark:text-neutral-100 dark:hover:border-white/35 dark:hover:bg-[rgba(31,41,53,0.98)] dark:hover:text-white"
+                className="button-base button-secondary button-icon"
               >
                 <svg
                   aria-hidden="true"
@@ -63,7 +63,7 @@ export default function Hero() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
-                className="flex h-12 w-12 items-center justify-center rounded-2xl border border-stone-400/80 bg-[rgba(255,250,244,0.96)] text-neutral-800 shadow-[0_10px_24px_rgba(80,61,45,0.14)] transition hover:-translate-y-0.5 hover:border-stone-700 hover:bg-white hover:text-neutral-950 dark:border-white/20 dark:bg-[rgba(24,32,42,0.92)] dark:text-neutral-100 dark:hover:border-white/35 dark:hover:bg-[rgba(31,41,53,0.98)] dark:hover:text-white"
+                className="button-base button-secondary button-icon"
               >
                 <svg
                   aria-hidden="true"

@@ -61,7 +61,7 @@ export default async function ProjectPage({
         href={project.link}
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex items-center gap-2 rounded-md bg-neutral-900 px-4 py-2 text-sm font-medium text-white hover:bg-neutral-800 dark:bg-neutral-100 dark:text-neutral-900 dark:hover:bg-neutral-200"
+        className="button-base button-primary"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"

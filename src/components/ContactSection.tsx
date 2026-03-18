@@ -20,7 +20,7 @@ export default function ContactSection() {
             <div className="flex flex-wrap gap-3 text-sm">
               <a
                 href="mailto:owenhoag@vt.edu"
-                className="rounded-full bg-[var(--color-accent)] px-5 py-3 font-semibold text-white transition hover:bg-[var(--color-accent-deep)]"
+                className="button-base button-primary"
               >
                 Email Me
               </a>
@@ -28,7 +28,7 @@ export default function ContactSection() {
                 href="https://github.com/owenhoagie"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-full border border-stone-300/70 px-5 py-3 font-semibold text-neutral-700 transition hover:border-stone-700 hover:text-neutral-950 dark:border-white/15 dark:text-neutral-200 dark:hover:border-white/35 dark:hover:text-white"
+                className="button-base button-secondary"
               >
                 GitHub
               </a>
@@ -36,7 +36,7 @@ export default function ContactSection() {
                 href="https://linkedin.com/in/owenhoag"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-full border border-stone-300/70 px-5 py-3 font-semibold text-neutral-700 transition hover:border-stone-700 hover:text-neutral-950 dark:border-white/15 dark:text-neutral-200 dark:hover:border-white/35 dark:hover:text-white"
+                className="button-base button-secondary"
               >
                 LinkedIn
               </a>
