@@ -15,7 +15,7 @@ export default function About() {
                 href="https://github.com/owenhoagie"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-full border border-stone-300/70 px-4 py-2 text-sm text-neutral-700 transition hover:border-stone-700 hover:text-neutral-950 dark:border-white/15 dark:text-neutral-200 dark:hover:border-white/35 dark:hover:text-white"
+                className="button-base button-secondary button-compact"
               >
                 GitHub
               </a>
@@ -23,7 +23,7 @@ export default function About() {
                 href="https://linkedin.com/in/owenhoag"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-full border border-stone-300/70 px-4 py-2 text-sm text-neutral-700 transition hover:border-stone-700 hover:text-neutral-950 dark:border-white/15 dark:text-neutral-200 dark:hover:border-white/35 dark:hover:text-white"
+                className="button-base button-secondary button-compact"
               >
                 LinkedIn
               </a>
